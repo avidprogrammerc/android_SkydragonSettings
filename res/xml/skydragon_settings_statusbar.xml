@@ -48,4 +48,8 @@
         settings:min="0"
         settings:units="" />
 
+    <Preference
+            android:key="battery_settings"
+            android:title="@string/battery_style_category_title"
+            android:fragment="com.skydragon.settings.fragments.StatusBarBattery" />
 </PreferenceScreen>
