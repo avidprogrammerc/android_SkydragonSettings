@@ -41,6 +41,12 @@
             android:title="@string/batterybar_title"
             android:summary="@string/batterybar_summary" />
 
+	<com.skydragon.settings.preferences.SystemSettingSwitchPreference
+            android:key="bluetooth_show_battery"
+            android:title="@string/bluetooth_battery_title"
+            android:summary="@string/bluetooth_battery_summary"
+            android:defaultValue="true"/>
+
 	<Preference
             android:key="statusbar_clock"
             android:fragment="com.skydragon.settings.StatusbarClockSettings" 
