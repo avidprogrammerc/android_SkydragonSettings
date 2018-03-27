@@ -61,5 +61,12 @@
         android:entries="@array/entries_scrollingcache"
         android:entryValues="@array/values_scrollingcache" />
 
+         <!-- Doze Settings -->
+        <Preference
+             android:key="doze_settings"
+             android:title="@string/doze_settings_title"
+             android:summary="@string/doze_settings_summary"
+             android:fragment="com.skydragon.settings.fragments.DozeSettings" />
+
 </PreferenceScreen>
 
