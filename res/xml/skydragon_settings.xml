@@ -104,5 +104,12 @@
                  android:targetPackage="org.omnirom.device"
                  android:targetClass="org.omnirom.device.DeviceSettings"/>
 
+        <!-- Weather -->
+        <Preference
+            android:key="weather_category"
+            android:title="@string/weather_title"
+            android:fragment="com.havoc.settings.fragments.Weather"
+            android:icon="@drawable/ic_settings_weather"/>
+
         </Preference>
 </PreferenceScreen>

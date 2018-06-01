@@ -28,6 +28,7 @@
     <string name="misc_title">Miscellaneous</string>
     <string name="style_title">Styles</string>
     <string name="device_part_title">Device features</string>
+    <string name="weather_title">Weather</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>
@@ -555,4 +556,14 @@
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">4G icon</string>
     <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
+
+    <!-- Weather - OmniJaws Settings -->
+    <string name="weather_config_title">Weather service</string>
+    <string name="weather_config_summary">System service settings</string>
+    <string name="header_weather_title">Header view weather</string>
+    <string name="header_weather_summary">Enable notification panel header weather display</string>
+    <string name="weather_icon_pack_title">Condition icon pack</string>
+    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
+</resources>
+
 </resources>
