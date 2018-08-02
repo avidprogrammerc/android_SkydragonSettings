@@ -18,8 +18,16 @@
     android:title="@string/lockscreen_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <com.skydragon.settings.preferences.SecureSettingSwitchPreference
+            android:key="hide_lock_shortcuts" 
+            android:title="@string/lockscreen_hide_shortcuts_title" 
+            android:summary="@string/lockscreen_hide_shortcuts_summary" 
+            android:defaultValue="false" 
+            android:disableDependentsState="true" />
+
     <Preference
-            android:title="@string/lockscreen_tuner_title" >
+            android:title="@string/lockscreen_tuner_title"
+            android:dependency="hide_lock_shortcuts" >
             <intent android:action="android.intent.action.MAIN"
                 android:targetPackage="com.android.systemui"
                 android:targetClass="com.android.systemui.tuner.LockscreenActivity" />
