@@ -19,6 +19,7 @@
     <string name="lockscreen_title">Lock screen</string>
     <string name="powermenu_title">Power menu</string>
     <string name="volume_title">Volume rockers</string>
+    <string name="misc_title">Miscellaneous</string>
     <string name="device_part_title">Device features</string>
 
     <!-- General strings -->
@@ -53,7 +54,12 @@
     <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
     <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
 
+    <!-- Sensor block per-package -->
+    <string name="sensor_block_title">Sensor block per-package</string>
+    <string name="sensor_block_summary">Block access to certain sensors for some apps to save battery.</string>
+
     <!-- Fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
     <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+
 </resources>
