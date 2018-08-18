@@ -33,7 +33,7 @@
         android:key="navigation_bar_show"
         android:title="@string/enable_navigation_bar_title"
         android:summary="@string/enable_navigation_bar_summary"
-        android:defaultValue="true" />
+        android:defaultValue="false" />
 
     <com.skydragon.settings.preferences.SystemSettingSwitchPreference
         android:key="swap_navigation_keys"
