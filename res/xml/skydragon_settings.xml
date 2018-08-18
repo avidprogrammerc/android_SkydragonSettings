@@ -38,6 +38,13 @@
             android:fragment="com.skydragon.settings.fragments.NavbarSettings"
             android:icon="@drawable/ic_settings_navbar"/>
 
+        <!-- Notifications -->
+        <Preference
+            android:key="notifications_category"
+            android:title="@string/notifications_title"
+            android:fragment="com.skydragon.settings.fragments.NotificationSettings"
+            android:icon="@drawable/ic_settings_notification"/>
+
         <!-- Power Menu -->
         <Preference
             android:key="powermenu__category"
