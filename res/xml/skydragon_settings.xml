@@ -31,6 +31,13 @@
             android:fragment="com.skydragon.settings.fragments.LockScreenSettings"
             android:icon="@drawable/ic_settings_lockscreens"/>
 
+        <!-- Navigation Bar -->
+        <Preference
+            android:key="navigationbar_category"
+            android:title="@string/navbar_title"
+            android:fragment="com.skydragon.settings.fragments.NavbarSettings"
+            android:icon="@drawable/ic_settings_navbar"/>
+
         <!-- Power Menu -->
         <Preference
             android:key="powermenu__category"

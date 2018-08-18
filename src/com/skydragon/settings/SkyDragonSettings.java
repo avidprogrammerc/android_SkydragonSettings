@@ -36,7 +36,6 @@ public class SkyDragonSettings extends SettingsPreferenceFragment {
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         final String KEY_DEVICE_PART = "device_part";
-        public static final String CATEGORY_OMNI = "com.android.settings.category.ia.skydragon";
         final String KEY_DEVICE_PART_PACKAGE_NAME = "org.omnirom.device";
 
         addPreferencesFromResource(R.xml.skydragon_settings);
