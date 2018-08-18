@@ -18,6 +18,7 @@
     <string name="button_title">Buttons</string>
     <string name="lockscreen_title">Lock screen</string>
     <string name="powermenu_title">Power menu</string>
+    <string name="statusbar_title">Status bar</string>
     <string name="volume_title">Volume rockers</string>
     <string name="misc_title">Miscellaneous</string>
     <string name="device_part_title">Device features</string>

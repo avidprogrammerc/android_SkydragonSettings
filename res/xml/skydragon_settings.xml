@@ -38,6 +38,13 @@
             android:fragment="com.skydragon.settings.fragments.PowerMenuSettings"
             android:icon="@drawable/ic_settings_powermenu"/>
 
+        <!-- Status Bar -->
+        <Preference
+            android:key="statusbar_category"
+            android:title="@string/statusbar_title"
+            android:fragment="com.skydragon.settings.fragments.StatusBarSettings" 
+            android:icon="@drawable/ic_settings_statusbar"/>
+
         <!-- Misc -->
         <Preference
             android:key="misc_category"
@@ -54,13 +61,6 @@
             <intent android:action="android.intent.action.MAIN"
                  android:targetPackage="org.omnirom.device"
                  android:targetClass="org.omnirom.device.DeviceSettings"/>
-
-        <!-- Status Bar -->
-        <Preference
-            android:key="statusbar_category"
-            android:title="@string/statusbar_title"
-            android:fragment="com.nitrogen.settings.fragments.StatusBarSettings" 
-            android:icon="@drawable/ic_settings_statusbar"/>
 
         </Preference>
 </PreferenceScreen>
