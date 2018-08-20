@@ -38,8 +38,8 @@ import com.android.internal.logging.nano.MetricsProto;
 import com.android.internal.util.hwkeys.ActionConstants;
 import com.android.internal.util.hwkeys.ActionUtils;
 
-import com.nitrogen.settings.preferences.ActionFragment;
-import com.nitrogen.settings.preferences.CustomSeekBarPreference;
+import com.skydragon.settings.preferences.ActionFragment;
+import com.skydragon.settings.preferences.CustomSeekBarPreference;
 
 public class ButtonSettings extends ActionFragment implements OnPreferenceChangeListener {
 

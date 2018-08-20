@@ -64,6 +64,12 @@
             android:summary="@string/anbi_summary"
             android:defaultValue="false" />
 
+
+        <com.skydragon.settings.preferences.SystemSettingSwitchPreference
+            android:key="allow_incall_home"
+            android:title="@string/allow_incall_home_title"
+            android:summary="@string/allow_incall_home_summary"
+            android:defaultValue="true" />
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -190,11 +196,5 @@
         </com.skydragon.settings.preferences.ActionPreference>
 
     </PreferenceCategory>
-
-    <com.skydragon.settings.preferences.SystemSettingSwitchPreference
-        android:key="allow_incall_home"
-        android:title="@string/allow_incall_home_title"
-        android:summary="@string/allow_incall_home_summary"
-        android:defaultValue="true" />
 
 </PreferenceScreen>
