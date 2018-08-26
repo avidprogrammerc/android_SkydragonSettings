@@ -22,6 +22,12 @@
             android:title="@string/batterybar_title"
             android:summary="@string/batterybar_summary" />
 
+	<Preference
+            android:key="statusbar_clock"
+            android:fragment="com.skydragon.settings.StatusbarClockSettings" 
+            android:title="@string/clock_title"
+            android:summary="@string/statusbar_clock_summary"/>
+
      <Preference
             android:title="@string/statusbar_items_title" >
             <intent android:action="android.intent.action.MAIN"
