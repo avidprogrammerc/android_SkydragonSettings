@@ -17,6 +17,13 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/skydragon_settings_title" >
 
+        <!-- Styles -->
+        <Preference
+            android:key="style_settings_new"
+            android:title="@string/style_title"
+            android:fragment="com.skydragon.settings.fragments.StyleSettings" 
+            android:icon="@drawable/ic_settings_style"/>
+
         <!-- Buttons -->
         <Preference
             android:key="buttonsettings_category"
