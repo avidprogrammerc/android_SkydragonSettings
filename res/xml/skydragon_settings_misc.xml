@@ -32,10 +32,20 @@
                 android:summary="@string/sensor_block_summary"
                 android:defaultValue="true" />
 
+         <!-- Wakelock Blocker -->
+         <Preference 
+                android:key="wakelock_blocker" 
+                android:fragment="com.skydragon.settings.fragments.WakeLockBlocker" 
+                android:title="@string/wakelock_blocker_title" 
+                android:summary="@string/wakelock_blocker_summary" />
+
         <com.skydragon.settings.preferences.GlobalSettingSwitchPreference
             android:key="wake_when_plugged_or_unplugged"
             android:title="@string/wakeup_when_plugged_unplugged_title"
             android:summary="@string/wakeup_when_plugged_unplugged_summary"
             android:defaultValue="true" />
+
+
+
 </PreferenceScreen>
 
