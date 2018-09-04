@@ -58,4 +58,10 @@
             android:key="battery_settings"
             android:title="@string/battery_style_category_title"
             android:fragment="com.skydragon.settings.fragments.StatusBarBattery" />
+
+        <com.skydragon.settings.preferences.SystemSettingSwitchPreference
+            android:key="double_tap_sleep_gesture"
+            android:title="@string/double_tap_sleep_gesture_title"
+            android:summary="@string/double_tap_sleep_gesture_summary"
+            android:defaultValue="false" />
 </PreferenceScreen>
