@@ -6,7 +6,16 @@
         android:viewportHeight="24.0"
         android:tint="?android:attr/colorControlNormal">
     <path
-        android:fillColor="#FFFFFFFF"
-        android:pathData="M7,3A4,4 0 0,1 11,7C11,8.86 9.73,10.43 8,10.87V13.13C8.37,13.22 8.72,13.37 9.04,13.56L13.56,9.04C13.2,8.44 13,7.75 13,7A4,4 0 0,1 17,3A4,4 0 0,1 21,7A4,4 0 0,1 17,11C16.26,11
-15.57,10.8 15,10.45L10.45,15C10.8,15.57 11,16.26 11,17A4,4 0 0,1 7,21A4,4 0 0,1 3,17C3,15.14 4.27,13.57 6,13.13V10.87C4.27,10.43 3,8.86 3,7A4,4 0 0,1 7,3M17,13A4,4 0 0,1 21,17A4,4 0 0,1 17,21A4,4 0 0,1 13,17A4,4 0 0,1 17,13M17,15A2,2 0 0,0 15,17A2,2 0 0,0 17,19A2,2 0 0,0 19,17A2,2 0 0,0 17,15Z" />
+        android:pathData="M18 8L17 8 17 6C17 3.2 14.8 1 12 1 9.2 1 7 3.2 7 6L7 8 6 8C4.9 8 4 8.9 4 10l0 10c0 1.1 0.9 2 2 2l12 0c1.1 0 2 -0.9 2 -2L20 10C20 8.9 19.1 8 18 8ZM9 6c0 -1.7 1.3 -3 3 -3 1.7 0 3 1.3 3 3L15 8 9 8 9 6Zm9 14l-12 0 0 -10 12 0 0 10z"
+        android:fillColor="#FF000000" />
+    <path
+        android:pathData="M12 12l0 6"
+        android:strokeWidth="2"
+        android:strokeColor="#FF000000"
+        android:strokeMiterLimit="10" />
+    <path
+        android:pathData="M15 15L9 15"
+        android:strokeWidth="2"
+        android:strokeColor="#FF000000"
+        android:strokeMiterLimit="10" />
 </vector>
