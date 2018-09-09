@@ -317,6 +317,9 @@
     <!-- Notification Light -->
     <string name="notification_light_settings">Notifications light</string>
 
+    <!-- Volume Key Category -->
+    <string name="volume_keys_category">Volume keys</string>
+
     <!-- Volume rocker music control -->
     <string name="volume_rocker_music_controls_title">Playback control</string>
     <string name="volume_rocker_music_controls_summary">When the screen is off, long-pressing the volume keys will seek music tracks</string>
