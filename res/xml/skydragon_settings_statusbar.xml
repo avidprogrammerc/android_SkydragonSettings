@@ -16,6 +16,17 @@
     android:title="@string/statusbar_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+        <com.skydragon.settings.preferences.SystemSettingSwitchPreference
+            android:key="double_tap_sleep_gesture"
+            android:title="@string/double_tap_sleep_gesture_title"
+            android:summary="@string/double_tap_sleep_gesture_summary"
+            android:defaultValue="false" />
+
+	<Preference
+            android:key="battery_settings"
+            android:title="@string/battery_style_category_title"
+            android:fragment="com.skydragon.settings.fragments.StatusBarBattery" />
+
 	<Preference
             android:key="batterybar"
             android:fragment="com.skydragon.settings.BatteryBarSettings"
@@ -23,45 +34,34 @@
             android:summary="@string/batterybar_summary" />
 
 	<Preference
+            android:title="@string/statusbar_items_title" >
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.android.systemui"
+                android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
+	</Preference>
+
+	<Preference
             android:key="statusbar_clock"
             android:fragment="com.skydragon.settings.StatusbarClockSettings" 
             android:title="@string/clock_title"
             android:summary="@string/statusbar_clock_summary"/>
 
-     <Preference
-            android:title="@string/statusbar_items_title" >
-            <intent android:action="android.intent.action.MAIN"
-                android:targetPackage="com.android.systemui"
-                android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
-    </Preference>
-
-    <com.skydragon.settings.preferences.SystemSettingSwitchPreference
+	<com.skydragon.settings.preferences.SystemSettingSwitchPreference
             android:key="adb_notify"
             android:title="@string/adb_notify"
             android:summary="@string/adb_notify_summary"
             android:defaultValue="true" />
 
-    <com.skydragon.settings.preferences.SystemSettingSwitchPreference
-        android:key="network_traffic_state"
-        android:title="@string/network_traffic_state_title"
-        android:summary="@string/network_traffic_state_summary"
-        android:defaultValue="true" />
+	<com.skydragon.settings.preferences.SystemSettingSwitchPreference
+            android:key="network_traffic_state"
+            android:title="@string/network_traffic_state_title"
+            android:summary="@string/network_traffic_state_summary"
+            android:defaultValue="true" />
 
-    <com.skydragon.settings.preferences.CustomSeekBarPreference
-        android:key="network_traffic_autohide_threshold"
-        android:title="@string/network_traffic_autohide_threshold_title"
-        android:max="10"
-        settings:min="0"
-        settings:units="" />
-
-    <Preference
-            android:key="battery_settings"
-            android:title="@string/battery_style_category_title"
-            android:fragment="com.skydragon.settings.fragments.StatusBarBattery" />
-
-        <com.skydragon.settings.preferences.SystemSettingSwitchPreference
-            android:key="double_tap_sleep_gesture"
-            android:title="@string/double_tap_sleep_gesture_title"
-            android:summary="@string/double_tap_sleep_gesture_summary"
-            android:defaultValue="false" />
+	<com.skydragon.settings.preferences.CustomSeekBarPreference
+            android:key="network_traffic_autohide_threshold"
+            android:title="@string/network_traffic_autohide_threshold_title"
+            android:max="10"
+            settings:min="0"
+            settings:units="" />
 </PreferenceScreen>
