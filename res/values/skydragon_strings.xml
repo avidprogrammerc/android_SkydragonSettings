@@ -82,9 +82,9 @@
     <string name="face_auto_unlock_title">Face auto unlock</string>
     <string name="face_auto_unlock_summary">Dismiss lockscreen after face unlocking</string>
 
-    <!-- Fingerprint unlock keystore -->  
-    <string name="fp_unlock_keystore_title">Fingerprint unlock</string>  
-    <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without PIN/Password/Pattern\nNote: at your own risk!</string>  
+    <!-- Fingerprint unlock keystore -->
+    <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
+    <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without PIN/Password/Pattern\nNote: at your own risk!</string>
 
     <!-- Incall Home button behavior-->
     <string name="allow_incall_home_title">Home button when ringing</string>
@@ -148,6 +148,10 @@
     <string name="clock_date_format">Date format</string>
     <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
     <string name="clock_date_string_edittext_summary">Enter string</string>
+
+    <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">Brightness control</string>
+    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
 
     <!-- Hardware keys -->
     <string name="hardware_keys_category">Hardware keys</string>
@@ -408,14 +412,14 @@
 
     <!-- Wakelock blocker -->
     <string name="wakelock_blocker_title">Wakelock Blocker</string>
-    <string name="wakelock_blocker_summary">Block system wakelocks</string> 
+    <string name="wakelock_blocker_summary">Block system wakelocks</string>
     <string name="wakelock_blocker_save">Save</string>
     <string name="wakelock_list_header">Available wakelocks</string>
     <string name="wakelock_blocker_reload">Reload</string>
 
     <!-- Alarm blocker -->
     <string name="alarm_blocker_title">Alarm blocker</string>
-    <string name="alarm_blocker_summary">Block alarms while screen off</string> 
+    <string name="alarm_blocker_summary">Block alarms while screen off</string>
     <string name="alarm_blocker_save">Save</string>
     <string name="alarm_list_header">Available alarms</string>
     <string name="alarm_blocker_reload">Reload</string>
@@ -429,7 +433,7 @@
     <string name="pref_scrollingcache_force_disable">Force disable</string>
 
     <!-- Recents Memory Bar -->
-    <string name="recents_show_membar_title">Memory bar</string> 
+    <string name="recents_show_membar_title">Memory bar</string>
     <string name="recents_show_membar_summary">Show a bar with the device\'s available memory</string>
 
     <!-- Doze settings editor -->
@@ -593,13 +597,13 @@
     <string name="notification_sound_vib_screen_on_title">Noisy notifications if screen on</string>
     <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
 
-    <!-- Bluetooth battery status --> 
-    <string name="bluetooth_battery_title">Bluetooth battery status</string> 
+    <!-- Bluetooth battery status -->
+    <string name="bluetooth_battery_title">Bluetooth battery status</string>
     <string name="bluetooth_battery_summary">Display battery status for the connected bluetooth device, if available</string>
 
-    <!-- Hide Lockscreen shortcuts on secure Lockscreen --> 
-    <string name="lockscreen_hide_shortcuts_title">Hide Bottom Shortcuts</string> 
-    <string name="lockscreen_hide_shortcuts_summary">Hide Left-Right Shortcuts on secure lock screens</string> 
+    <!-- Hide Lockscreen shortcuts on secure Lockscreen -->
+    <string name="lockscreen_hide_shortcuts_title">Hide Bottom Shortcuts</string>
+    <string name="lockscreen_hide_shortcuts_summary">Hide Left-Right Shortcuts on secure lock screens</string>
 
 	<!-- Onehand UI mode -->
     <string name="one_hand_mode_title">One-handed Mode</string>

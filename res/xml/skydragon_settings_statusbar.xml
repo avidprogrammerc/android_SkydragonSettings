@@ -25,6 +25,12 @@
 	</Preference>
 
         <com.skydragon.settings.preferences.SystemSettingSwitchPreference
+         android:key="status_bar_brightness_control"
+         android:title="@string/status_bar_toggle_brightness"
+         android:summary="@string/status_bar_toggle_brightness_summary"
+         android:defaultValue="false" />
+
+        <com.skydragon.settings.preferences.SystemSettingSwitchPreference
             android:key="double_tap_sleep_gesture"
             android:title="@string/double_tap_sleep_gesture_title"
             android:summary="@string/double_tap_sleep_gesture_summary"
@@ -33,7 +39,7 @@
 	<Preference
             android:key="battery_settings"
             android:title="@string/battery_style_category_title"
-            android:fragment="com.skydragon.settings.fragments.StatusBarBattery" 
+            android:fragment="com.skydragon.settings.fragments.StatusBarBattery"
             android:summary="@string/battery_style_category_summary" />
 
 	<Preference
@@ -50,7 +56,7 @@
 
 	<Preference
             android:key="statusbar_clock"
-            android:fragment="com.skydragon.settings.StatusbarClockSettings" 
+            android:fragment="com.skydragon.settings.StatusbarClockSettings"
             android:title="@string/clock_title"
             android:summary="@string/statusbar_clock_summary"/>
 
