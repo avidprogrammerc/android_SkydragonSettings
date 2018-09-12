@@ -16,6 +16,13 @@
     android:title="@string/statusbar_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+	<Preference
+            android:title="@string/statusbar_items_title" >
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.android.systemui"
+                android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
+	</Preference>
+
         <com.skydragon.settings.preferences.SystemSettingSwitchPreference
             android:key="double_tap_sleep_gesture"
             android:title="@string/double_tap_sleep_gesture_title"
@@ -33,13 +40,6 @@
             android:fragment="com.skydragon.settings.BatteryBarSettings"
             android:title="@string/batterybar_title"
             android:summary="@string/batterybar_summary" />
-
-	<Preference
-            android:title="@string/statusbar_items_title" >
-            <intent android:action="android.intent.action.MAIN"
-                android:targetPackage="com.android.systemui"
-                android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
-	</Preference>
 
 	<Preference
             android:key="statusbar_clock"
