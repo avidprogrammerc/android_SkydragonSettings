@@ -25,7 +25,8 @@
 	<Preference
             android:key="battery_settings"
             android:title="@string/battery_style_category_title"
-            android:fragment="com.skydragon.settings.fragments.StatusBarBattery" />
+            android:fragment="com.skydragon.settings.fragments.StatusBarBattery" 
+            android:summary="@string/battery_style_category_summary" />
 
 	<Preference
             android:key="batterybar"
