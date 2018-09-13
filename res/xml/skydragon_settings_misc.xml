@@ -43,7 +43,7 @@
          <Preference 
                 android:key="alarm_blocker" 
                 android:fragment="com.skydragon.settings.fragments.AlarmBlocker" 
-                android:title="@string/alarm_blocker" 
+                android:title="@string/alarm_blocker_title" 
                 android:summary="@string/alarm_blocker_summary" />
 
         <com.skydragon.settings.preferences.GlobalSettingSwitchPreference
