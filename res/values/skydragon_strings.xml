@@ -544,4 +544,8 @@
     <string name="burn_in_protection_interval_title">Interval of shift</string>
     <string name="burn_in_protection_interval_summary">How often to make icons shift</string>
 
+    <!-- QS Running Services Icon -->
+    <string name="qs_running_services_title">Running Services Icon</string>
+    <string name="qs_running_services_summary">Disable the tile running services icon in the footer</string>
+
 </resources>
