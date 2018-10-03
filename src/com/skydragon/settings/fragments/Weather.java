@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.s.settings.fragments;
+package com.skydragon.settings.fragments;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -34,7 +34,7 @@ import android.provider.Settings;
 import android.util.Log;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
-import com.skydragon.settings.preferences.Utils;
+import com.skydragon.settings.Utils;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
