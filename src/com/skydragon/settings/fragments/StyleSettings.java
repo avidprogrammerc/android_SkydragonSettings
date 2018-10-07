@@ -33,7 +33,7 @@ import android.support.v7.preference.Preference;
 import android.provider.SearchIndexableResource;
 import android.provider.Settings;
 import android.util.Log;
-
+import android.provider.SearchIndexableResource;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 
 import com.android.settings.R;
@@ -82,15 +82,18 @@ public class StyleSettings extends SettingsPreferenceFragment implements
         return true;
     }
 
-    public static final Indexable.SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+
+    /**
+     * For Search.
+     */
+    public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
             new BaseSearchIndexProvider() {
                 @Override
                 public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,
                         boolean enabled) {
-                    ArrayList<SearchIndexableResource> result =
-                            new ArrayList<SearchIndexableResource>();
+                    final ArrayList<SearchIndexableResource> result = new ArrayList<>();
 
-                    SearchIndexableResource sir = new SearchIndexableResource(context);
+                    final SearchIndexableResource sir = new SearchIndexableResource(context);
                     sir.xmlResId = R.xml.skydragon_settings_style;
                     result.add(sir);
                     return result;
@@ -98,8 +101,8 @@ public class StyleSettings extends SettingsPreferenceFragment implements
 
                 @Override
                 public List<String> getNonIndexableKeys(Context context) {
-                    ArrayList<String> result = new ArrayList<String>();
-                    return result;
+                    final List<String> keys = super.getNonIndexableKeys(context);
+                    return keys;
                 }
             };
 
