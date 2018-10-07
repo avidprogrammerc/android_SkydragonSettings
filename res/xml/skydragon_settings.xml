@@ -35,8 +35,8 @@
         <Preference
             android:key="gestures_category"
             android:title="@string/gestures_title"
-            android:fragment="com.skydragon.settings.fragments.GestureSettings"
-            android:icon="@drawable/ic_settings_gesture"/>
+            android:fragment="com.skydragon.settings.fragments.SDGestureSettings"
+            android:icon="@drawable/ic_settings_gestures"/>
 
         <!-- Lock Screen -->
         <Preference

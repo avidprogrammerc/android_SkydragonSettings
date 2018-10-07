@@ -35,7 +35,7 @@
 
     <Preference
         android:key="charging_light"
-        android:fragment="com.skydragon.settings.BatteryLightSettings"
+        android:fragment="com.skydragon.settings.fragments.BatteryLightSettings" 
         android:title="@string/battery_light_settings" />
 
     <com.skydragon.settings.preferences.SystemSettingSwitchPreference
