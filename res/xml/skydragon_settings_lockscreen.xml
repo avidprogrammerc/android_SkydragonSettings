@@ -27,6 +27,7 @@
 
     <Preference
             android:title="@string/lockscreen_tuner_title"
+            android:summary="@string/lockscreen_tuner_summary" 
             android:dependency="hide_lock_shortcuts" >
             <intent android:action="android.intent.action.MAIN"
                 android:targetPackage="com.android.systemui"

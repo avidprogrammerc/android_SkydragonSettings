@@ -22,12 +22,14 @@
     <Preference
         android:key="heads_up_notifications"
         android:title="@string/heads_up_notifications"
+        android:summary="@string/heads_up_notifications_summary"
         android:fragment="com.skydragon.settings.fragments.HeadsUpSettings" />
 
     <Preference
         android:key="notification_light"
         android:fragment="com.android.settings.applications.manageapplications.ManageApplications"
-        android:title="@string/notification_light_settings" >
+        android:title="@string/notification_light_settings" 
+        android:summary="@string/notification_light_settings_summary" >
         <extra
             android:name="classname"
             android:value="com.android.settings.Settings$NotificationAppListActivity" />
@@ -36,7 +38,8 @@
     <Preference
         android:key="charging_light"
         android:fragment="com.skydragon.settings.fragments.BatteryLightSettings" 
-        android:title="@string/battery_light_settings" />
+        android:title="@string/battery_light_settings" 
+        android:summary="@string/battery_light_settings_summary" />
 
     <com.skydragon.settings.preferences.SystemSettingSwitchPreference
         android:key="notification_sound_vib_screen_on"

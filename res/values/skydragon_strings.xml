@@ -209,6 +209,7 @@
 
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Statusbar items</string>
+    <string name="statusbar_items_summary">Hide/Unhide status bar icons</string>
 
     <string name="volume_summary">Volume button customization</string>
 
@@ -222,6 +223,7 @@
 
     <!-- Lockscreen icons -->
     <string name="lockscreen_tuner_title">Lockscreen shortcuts</string>
+    <string name="lockscreen_tuner_summary">Change left/right shortcuts on lockscreeen</string>
 
     <!-- Navbar tuner -->
     <string name="navbar_tuner_title">Navbar buttons</string>
@@ -247,7 +249,8 @@
     <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
 
     <!-- Heads up -->
-    <string name="heads_up_notifications">Heads up</string>
+    <string name="heads_up_notifications">Heads-Up</string>
+    <string name="heads_up_notifications_summary">Change Heads-Up settings</string>
     <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
     <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
     <string name="add_heads_up_package">Add app</string>
@@ -282,6 +285,7 @@
 
     <!-- Battery light -->
     <string name="battery_light_settings">Battery charging light</string>
+    <string name="battery_light_settings_summary">Change Battery light settings</string>
     <string name="battery_light_enable">Enable</string>
     <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
     <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
@@ -329,6 +333,7 @@
 
     <!-- Notification Light -->
     <string name="notification_light_settings">Notifications light</string>
+    <string name="notification_light_settings_summary">Change notification light settings</string>
 
     <!-- Volume Key Category -->
     <string name="volume_keys_category">Volume keys</string>
