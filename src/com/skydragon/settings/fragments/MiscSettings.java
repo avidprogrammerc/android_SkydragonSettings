@@ -36,7 +36,7 @@ public class MiscSettings extends SettingsPreferenceFragment implements
 
     private static final String SCROLLINGCACHE_PREF = "pref_scrollingcache";
     private static final String SCROLLINGCACHE_PERSIST_PROP = "persist.sys.scrollingcache";
-    private static final String SCROLLINGCACHE_DEFAULT = "2";
+    private static final String SCROLLINGCACHE_DEFAULT = "3";
 
     private ListPreference mScrollingCachePref;
 
