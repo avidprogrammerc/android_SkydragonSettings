@@ -601,4 +601,8 @@
     <string name="lockscreen_hide_shortcuts_title">Hide Bottom Shortcuts</string> 
     <string name="lockscreen_hide_shortcuts_summary">Hide Left-Right Shortcuts on secure lock screens</string> 
 
+	<!-- Onehand UI mode -->
+    <string name="one_hand_mode_title">One-handed Mode</string>
+    <string name="one_hand_mode_summary">Allow swiping across right or left on navbar to enable</string>
+
 </resources>
