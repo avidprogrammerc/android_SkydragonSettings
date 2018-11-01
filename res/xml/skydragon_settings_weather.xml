@@ -39,7 +39,8 @@
         android:key="lockscreen_weather_enabled"
         android:title="@string/lockscreen_weather_title"
         android:summary="@string/lockscreen_weather_summary"
-        android:defaultValue="true" />
+        android:defaultValue="true" 
+        android:disableDependentsState="false"/>
 
     <com.skydragon.settings.preferences.SystemSettingSwitchPreference
         android:key="lockscreen_weather_show_city"
