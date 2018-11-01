@@ -22,7 +22,8 @@
         android:key="qs_show_brightness"
         android:title="@string/qs_show_brightness_title"
         android:summary="@string/qs_show_brightness_summary"
-        android:defaultValue="true" />
+        android:defaultValue="true" 
+        android:disableDependentsState="false" />
 
     <com.skydragon.settings.preferences.SecureSettingSwitchPreference
         android:key="qs_brightness_position_bottom"
